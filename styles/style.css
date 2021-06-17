@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+/* border: 0; */
+font-size: 62.5%;
+font: inherit;
+vertical-align: baseline;
+max-width:100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1.5;
+font-size: 1.6rem;
+min-height:100%;
+}
+* {
+max-width:100%;
+box-sizing:border-box;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.main-container {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: rgb(228, 65, 65);
+    width: 1200px;
+}
+
+.second-person {
+    position: absolute;
+    top: 20px;
+    left: 450px;
+}
+
+.third-person {
+    position: absolute;
+    display: inline-block;
+    top: -60px;
+    left: 400px; 
+}
+
+.intro-text {
+    position: absolute;
+    margin: 0 70% 0 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-style: italic; */
+    top: 350px;
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2;
+    padding: 50px;
+    z-index: 5;
+}
+
+.top-box {
+    position: absolute;
+    top: 500px;
+    left: 25%;
+    right: 25%;
+    height: 0px;
+    width: 50%;
+    background-color: white;
+}
+
+.last-text {
+    background: linear-gradient(to left, transparent 50%, black 50% ) right;
+    background-size: 200%;
+    transition: .5s ease-out;  
+}
+
+.cover-up {
+    position: absolute;
+    top: 28px;
+    left:-1px;
+    width: 1px;
+    height: 40px;
+    border: 1px solid white;
+    display: none;
+}
+
+
