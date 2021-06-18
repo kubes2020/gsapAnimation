@@ -49,19 +49,31 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+/* my styles start here */
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
 }
 
 .main-container {
     position: relative;
     text-align: center;
-    margin-top: 5%;
     overflow: hidden;
     background-color: rgb(228, 65, 65);
     width: 1200px;
+}
+
+.btn-container {
+    height: 65px;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding: 6px 12px;
+    border-radius: 8px;
 }
 
 .second-person {
@@ -81,7 +93,6 @@ body {
     position: absolute;
     margin: 0 70% 0 30%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* font-style: italic; */
     top: 350px;
     color: black;
     text-align: left;
